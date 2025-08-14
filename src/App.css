@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff5e1;
+}
+
+.cookio-home {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #a00000;
+}
+
+.dot {
+    color: #a00000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    background-color: #fff5e1;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+}
+
+nav ul li {
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+nav ul li.active::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: black;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sign-in {
+    background-color: #c70000;
+    color: white;
+    padding: 6px 24px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 0.95rem;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 8rem;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    font-size: 3.2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    flex-direction: column;
+    margin-top: -70px;
+}
+
+.highlight.yellow {
+    color: #bfa530;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.highlight.red {
+    color: #c70000;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.hero-text p {
+    margin: 0.5rem 0 1.8rem;
+    color: #444;
+    font-size: 1rem;
+    line-height: 1.6;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+
+}
+
+.explore-btn {
+    background-color: #c70000;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.hero-image {
+    max-width: 600px;
+    width: 50%;
+    margin-left: 2rem;
+}
+
+.bowl-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}

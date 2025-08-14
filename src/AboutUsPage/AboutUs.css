@@ -1,0 +1,96 @@
+.about-container {
+    font-family: Arial, sans-serif;
+    background-color: #fcecd6;
+}
+
+.about-top {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.about-image {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-text {
+    max-width: 500px;
+}
+
+.about-text h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.about-text p {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+.learn-btn {
+    margin-top: 15px;
+    background-color: #f44336;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.arrow {
+    margin-left: 5px;
+}
+
+.arrow-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #f5f0e8;
+    padding: 20px;
+}
+
+.recipe-box,
+.contact-box,
+.follow-box {
+    max-width: 300px;
+}
+
+.recipe-box h3,
+.contact-box h3,
+.follow-box h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.recipe-input {
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.recipe-input input {
+    padding: 6px;
+    border: 1px solid #ccc;
+    flex: 1;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
